@@ -1,12 +1,12 @@
 # WireGuard Implementation for ESP32 Arduino
 
-This is fork of [WireGuard-ESP32-Arduino](https://github.com/ciniml/WireGuard-ESP32-Arduino).
+This is a fork of [WireGuard-ESP32-Arduino](https://github.com/ciniml/WireGuard-ESP32-Arduino).
 
 **Support TCP connection via WireGuard.**
 
-And apply some changes on original WireGuard for IwIP repo.
+And apply some changes to the original WireGuard for the IwIP repo.
 
-Almost all of this code is based on the [WireGuard Implementation for lwIP](https://github.com/smartalock/wireguard-lwip) and [WireGuard-ESP32-Arduino](https://github.com/ciniml/WireGuard-ESP32-Arduino), but some potion of the code is adjusted to build with ESP32 Arduino.
+Almost all of this code is based on the [WireGuard Implementation for lwIP](https://github.com/smartalock/wireguard-lwip) and [WireGuard-ESP32-Arduino](https://github.com/ciniml/WireGuard-ESP32-Arduino), but some of the code is adjusted to build with ESP32 Arduino.
 
 ## How to use 
 
