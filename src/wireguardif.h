@@ -41,8 +41,9 @@
 #include "lwip/netif.h"
 #include "lwip/ip_addr.h"
 
-// Default MTU for WireGuard is 1420 bytes
-#define WIREGUARDIF_MTU (1420)
+// Default MTU for WireGuard on ESP32 is 1380 bytes
+// 1420 cause problem when connect via TCP
+#define WIREGUARDIF_MTU (1380)
 
 #define WIREGUARDIF_DEFAULT_PORT		(51820)
 #define WIREGUARDIF_KEEPALIVE_DEFAULT	(0xFFFF)
